@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:700%7COpen+Sans:300,400,600%7CSource+Sans+Pro:600');
+
+font-family: 'Open Sans', sans-serif;
+
+font-family: 'Lora', serif;
+
+
+font-family: 'Source Sans Pro', sans-serif;
+
+* {
+	margin:0;
+	padding: 0;
+}
+
+header {
+	background: #9198a2 url(img/index.jpg);
+	height: 100vh;
+	color: white;
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+	
+}
+
+.header-top {
+display: flex;
+justify-content: space-between;
+	
+	
+}
+
+.logo {
+	width: 2em;
+	display: inline-flex;
+}
+
+nav {
+	display: inline-flex;
+    margin-right: 48px;
+    margin-top: 8px;
+}
+
+
+
+li {
+	list-style: none;
+	display: inline-block;
+	font: 300 15px/2.6 "open sans";
+    margin-left: 4.5em;
+    margin-left: 55px;
+	
+}
+
+.header-description {
+	    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.logo {
+	width: 137px;
+	height: 40px;
+	margin-top: 24px;
+    margin-left: 115px;
+}
+
+.header-description h1 {
+	font: 600 55px/2.6 "open sans";
+    margin-top: -1em;
+	
+}
+
+
+.header-description h2 {
+	font-size: 20px;
+	font-family: 'Open Sans';
+	font-weight: 200;
+	margin-top: -2em;
+	
+	margin-bottom: 3em;
+}
+
+
+button {
+	background-color: #00a5ff;
+color: white;
+font-weight: 400;
+font-size: 25px;
+width: 320px;
+height: 70px;
+border-radius: 40px;
+border: transparent;
+margin-left: 7em;
+}
+
+
+.services {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	width: 100%;
+	border: 1px solid black;
+	
+}
+
+.service-type {
+	width: 80%;
+	flex-direction: row;
+	border: 1px solid red;
+	margin: auto;
+	
+}
+
+.service {
+
+	    width: 24%;
+    border: 1px solid yellow;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.services h1
+{
+	text-transform: uppercase;
+	font: 600 40px/1.5 "lora";
+}
+
+
+.pic-logo {
+	width: 40px;
+	height: 60px;
+}
+
+.service h3 {
+	font: 500 25px 'Source Sans Pro';
+}
+
+.service p {
+	font: 100 15px 'Source Sans Pro';
+}
