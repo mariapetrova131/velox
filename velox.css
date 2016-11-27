@@ -83,7 +83,7 @@ li {
 
 
 button {
-	background-color: #00a5ff;
+background-color: #00a5ff;
 color: white;
 font-weight: 400;
 font-size: 25px;
@@ -94,20 +94,25 @@ border: transparent;
 margin-left: 7em;
 }
 
+.margin-button {
+	margin-left: 21em;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
 
 .services {
 	display: flex;
 	text-align: center;
 	flex-direction: column;
 	width: 100%;
-	border: 1px solid black;
 	
 }
 
 .service-type {
 	width: 80%;
 	flex-direction: row;
-	border: 1px solid red;
+	
 	margin: auto;
 	margin-bottom: 97px;
 	
@@ -116,14 +121,14 @@ margin-left: 7em;
 .service {
 
 	    width: 24%;
-    border: 1px solid yellow;
+    
     display: inline-flex;
     flex-direction: column;
     align-items: center;
 }
 
 
-.services h1, .portfolio h1, .brands h1
+.services h1, .portfolio h1, .brands h1, .others h1
 {
 	text-transform: uppercase;
 	font: 600 40px/1.5 "lora";
@@ -155,30 +160,32 @@ margin-bottom: 97px;
 	display: flex;
 	width: 100%;
 	flex-direction: column;
-	border: 1px solid black;
+	
 }
 }
 
 .example {
 	display: flex;
 	width: 100%;
-	border: 1px solid red;
+	
 	flex-direction: row;
 }
 	
 .example {
 	width: 100%;
 	flex-direction: row;
+	margin-bottom: 60px;
 }
 
 .example-pic {
 	    width: 30%;
-    border: 1px solid green;
+  
     display: inline-flex;
     
     flex-direction: column;
     height: 330px;
        box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+       
 
 }
 
@@ -192,4 +199,78 @@ margin-bottom: 97px;
 .brand-pic {
 	width: 100px;
 	height: 100px;
-1
+}
+
+
+.others {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.faces {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 60px;
+	
+}
+
+.faces img {
+	width: 100px;
+	height: 100px;
+	margin: 0px 20px;
+	opacity: 0.5;
+}
+
+
+.faces img:hover {
+	opacity: 1;
+	
+}
+
+footer {
+	background-color:#3b404c;
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+
+
+.contact {
+	width: 200px;
+	align-items: flex-start;
+	display: inline-flex;
+	flex-direction: column;
+	width: 30%;
+	margin-left: 80px;
+	
+}
+
+.contact h1  {
+	font: 600 30px "Source Sans Pro";
+	text-transform: uppercase;
+	
+	
+}
+
+.contact h2 {
+	text-transform: uppercase;
+}
+
+.second-nav {
+	display: inline-flex;
+	width: 65%;
+	justify-content: center;
+	
+}
+
+nav .second {
+	width: 100%;
+}
+
+.second {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
