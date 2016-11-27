@@ -123,7 +123,7 @@ margin-left: 7em;
 }
 
 
-.services h1, .portfolio h1
+.services h1, .portfolio h1, .brands h1
 {
 	text-transform: uppercase;
 	font: 600 40px/1.5 "lora";
@@ -148,4 +148,36 @@ width: 160px;
 margin: auto;
 border-radius: 4px;
 margin-bottom: 97px;
+}
+
+
+.portfolio {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	border: 1px solid black;
+}
+}
+
+.example {
+	display: flex;
+	width: 100%;
+	border: 1px solid red;
+	flex-direction: row;
+}
+	
+.example {
+	width: 100%;
+	flex-direction: row;
+}
+
+.example-pic {
+	    width: 30%;
+    border: 1px solid green;
+    display: inline-flex;
+    
+    flex-direction: column;
+    height: 330px;
+       box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+
 }
