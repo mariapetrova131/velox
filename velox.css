@@ -329,7 +329,7 @@ textarea {
 	border-bottom: 2px solid gray;
 	color: white;
 	font: 100 20px "Source Sans Pro";
-
+	 overflow: hidden;
 	
 }
 
@@ -340,4 +340,9 @@ input:focus {
 
 textarea:focus {
 	border-bottom: 2px solid #00a5ff;
+}
+
+.portfolio li:hover {
+	color: #00a5ff;
+	text-decoration: underline;
 }
