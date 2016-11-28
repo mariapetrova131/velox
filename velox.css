@@ -301,14 +301,14 @@ nav .second {
 	margin-left: 10px;
 	font: 100 20px "Source Sans Pro";
 	
-	text-align: initial;
+	text-align: left;
 }
 
 .second-row {
 	width: 100%;
 	font: 100 20px "Source Sans Pro";
 	width: 100%;
-	text-align: initial;
+	text-align: left;
 }
 
 form {
