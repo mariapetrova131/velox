@@ -232,8 +232,9 @@ margin-bottom: 97px;
 footer {
 	background-color:#3b404c;
 	display: flex;
-	flex-direction: row;
+	
 	color: white;
+	
 }
 
 
@@ -244,6 +245,9 @@ footer {
 	flex-direction: column;
 	width: 30%;
 	margin-left: 80px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	
 	
 }
 
@@ -258,19 +262,82 @@ footer {
 	text-transform: uppercase;
 }
 
-.second-nav {
+.second-nav-form {
 	display: inline-flex;
 	width: 65%;
 	justify-content: center;
+	
+	flex-direction: column;
+	justify-content: space-between;
 	
 }
 
 nav .second {
 	width: 100%;
+	
+	height: 50px;
 }
 
 .second {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
+}
+
+
+.first-row {
+	width: 390px;
+	display: inline-block;
+	margin-left: 10px;
+	font: 100 20px "Source Sans Pro";
+	
+	text-align: initial;
+}
+
+.second-row {
+	width: 100%;
+	font: 100 20px "Source Sans Pro";
+	width: 100%;
+	text-align: initial;
+}
+
+form {
+	display: flex;
+	
+}
+
+input {
+	background-color: #3b404c;
+	border: transparent;
+	border-bottom: 2px solid gray;
+	width: 370px;
+	color: white;
+	font: 100 20px "Source Sans Pro";
+	
+}
+
+
+fieldset {
+	border: transparent;
+}
+
+textarea {
+	width: 770px;
+	height: 100px;
+	background-color: #3b404c;
+	border: transparent;
+	border-bottom: 2px solid gray;
+	color: white;
+	font: 100 20px "Source Sans Pro";
+
+	
+}
+
+input:focus {
+	border-bottom: 2px solid #00a5ff;
+}
+
+
+textarea:focus {
+	border-bottom: 2px solid #00a5ff;
 }
