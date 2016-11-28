@@ -379,3 +379,18 @@ blockquote a {
 .button-form {
 	margin-left: 0;
 }
+
+.brand-pic {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+
+.brand-img {
+	opacity: 0.5;
+}
+.brand-img:hover {
+	opacity: 1;
+}
