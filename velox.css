@@ -8,10 +8,13 @@ font-family: 'Lora', serif;
 font-family: 'Source Sans Pro', sans-serif;
 
 * {
-	margin:0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 }
 
+body {
+	margin: 0;
+}
 header {
 	background: #9198a2 url(img/index.jpg);
 	height: 100vh;
@@ -340,6 +343,7 @@ textarea {
 	color: white;
 	font: 100 20px "Source Sans Pro";
 	 overflow: hidden;
+	 resize: none;
 	
 }
 
@@ -372,3 +376,6 @@ blockquote a {
 	text-decoration: underline;
 }
 
+.button-form {
+	margin-left: 0;
+}
